@@ -80,7 +80,7 @@ class WeatherScreen extends StatelessWidget {
         itemBuilder: (context, index) {
           return Card(
             color: Colors.white,
-            elevation: 2, // Adding elevation to the card
+            elevation: 2,
             child: ListTile(
               title: Text('City: ${weatherDataList[index].city}',
                   style: const TextStyle(fontSize: 20)),
